@@ -28,10 +28,5 @@ curl -X POST "http://127.0.0.1:8000/api/v1/devices/ECG-001/readings" \
     "timestamp": "2025-11-28T20:15:00Z"
   }'
 
-- Table: Active alerts by device_id, patient_id, alert_type, severity
-- Line chart: heart_rate over time by device_id/patient_id
-- Bar chart: alerts by severity
 
-The goal is to demonstrate the full API -> SQL -> dashboard flow
-for a medical-device style monitoring scenario.
 
