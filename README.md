@@ -6,6 +6,30 @@ This project mirrors real workflows used in connected healthcare environments wh
 ![VitalsStream Overview](tests/VitalStream-Dashboard-1.png)
 ⭐ What This Project Demonstrates
 
+1. **Monitors order & data pipelines in real time**  
+   - Tracks orders/events across **multiple systems** (e.g., Shopify, ERP, WMS, marketplace).  
+   - Detects **missing, delayed, or duplicated** records before they hit customers or finance.
+
+2. **Reconciles orders across platforms**  
+   - Compares **source-of-truth systems** (e.g., Shopify vs ERP).  
+   - Highlights **mismatches in totals, statuses, and counts** by day, channel, or store.
+
+3. **Surfaces integration “vitals” in a single dashboard**  
+   - High-level **green / yellow / red** status for each integration.  
+   - Drill-down views into specific **order IDs, error types, and failure windows**.
+
+4. **Sends proactive alerts when something feels “off”**  
+   - Configurable thresholds (e.g., “if Shopify orders ≠ ERP orders by >2%”).  
+   - Alerts via **email / Slack / webhook** so teams can jump in fast.
+
+5. **Creates an audit trail for engineering & operations**  
+   - Keeps a **history of incidents, anomalies, and resolutions**.  
+   - Helps teams **debug faster, document fixes, and prove stability** over time.
+
+6. **Acts as a foundation for automation & self-healing**  
+   - Exposes a **clean API layer** for bots/agents to trigger checks, re-runs, and reports.  
+   - Can evolve into **auto-replay, auto-repair, or escalation workflows**.
+
 ✔️ Healthcare data transmission workflows
 
 Simulates how medical devices send vitals to an integration layer, where data is validated, stored, and prepared for downstream systems such as EMRs, monitoring systems, or dashboards.
