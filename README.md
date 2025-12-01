@@ -3,7 +3,7 @@ VitalsStream – Medical Device Data Ingestion & Alert API
 VitalsStream is a lightweight, end-to-end medical-device data pipeline designed to show how healthcare systems handle real-time vitals ingestion, validation, alerting, and downstream reporting using modern integration patterns.
 
 This project mirrors real workflows used in connected healthcare environments where systems must reliably move data between medical devices, EHRs, and analytics dashboards — across REST APIs, SOAP legacy systems, and SQL-based data stores.
-
+![VitalsStream Overview](tests/VitalStream-Dashboard-1.png)
 ⭐ What This Project Demonstrates
 ✔️ Healthcare data transmission workflows
 
