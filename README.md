@@ -5,6 +5,7 @@ VitalsStream is a lightweight, end-to-end medical-device data pipeline designed 
 This project mirrors real workflows used in connected healthcare environments where systems must reliably move data between medical devices, EHRs, and analytics dashboards — across REST APIs, SOAP legacy systems, and SQL-based data stores.
 ![VitalsStream Overview](tests/VitalStream-Dashboard-1.png)
 ⭐ What This Project Demonstrates
+
 ✔️ Healthcare data transmission workflows
 
 Simulates how medical devices send vitals to an integration layer, where data is validated, stored, and prepared for downstream systems such as EMRs, monitoring systems, or dashboards.
